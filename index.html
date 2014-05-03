@@ -111,7 +111,7 @@ d3.csv("flights-airport.csv", function(flights) {
 
     //Only consider airports with at least one flight.
     airports = airports.filter(function(airport) {
-      if (countByAirport[airport.iata]>1000) {
+      if (countByAirport[airport.iata]>2) {
         var location = [+airport.longitude, +airport.latitude];
         locationByAirport[airport.iata] = location;
         positions.push(projection(location));
