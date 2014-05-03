@@ -1,0 +1,47 @@
+iata,name,city,state,country,latitude,longitude
+PHX,Phoenix Suns,Phoenix,AZ,USA,33.45,-112.0667
+SCW,Santa Cruz Warriors,Santa Cruz,CA,USA,36.972,-122.0263
+BAK,Bakersfield Jam,Bakersfield,CA,USA,35.3667,-119.0167
+LAD,Los Angeles D-Fenders,Los Angeles,CA,USA,34.05,-118.25
+GSW,Golden State Warriors,Oakland,CA,USA,37.8044,-122.2708
+SAC,Sacramento Kings,Sacramento,CA,USA,38.5556,-121.4689
+LAL,Los Angeles Lakers,Los Angeles,CA,USA,34.05,-118.25
+LAC,Los Angeles Clippers,Los Angeles,CA,USA,34.05,-118.25
+DEN,Denver Nuggets,Denver,CO,USA,39.7392,-104.9847
+WAS,Washington Wizards,Washington,DC,USA,38.8951,-77.0367
+DEL,Delaware 87ers,Newark,DE,USA,39.6792,-75.7581
+MIA,Miami Heat,Miami,FL,USA,25.7877,-80.2241
+ORL,Orlando Magic,Orlando,FL,USA,28.4158,-81.2989
+ATL,Atlanta Hawks,Atlanta,GA,USA,33.755,-84.39
+IWA,Iowa Energy,Des Moines,IA,USA,41.5908,-93.6208
+IDA,Idaho Stampede,Boise,ID,USA,43.6137,-116.2377
+CHI,Chicago Bulls,Chicago,IL,USA,41.8819,-87.6278
+FWN,Fort Wayne Mad Ants,Fort Wayne,IN,USA,41.0804,-85.1392
+NOH,New Orleans Pelicans,New Orleans,LA,USA,29.9667,-90.05
+SPG,Springfield Armor,Springfield,MA,USA,42.1124,-72.5475
+BOS,Boston Celtics,Boston,MA,USA,42.3581,-71.0636
+MNE,Maine Red Claws,Portland,ME,USA,43.6667,-70.2667
+MIL,Milwaukee Bucks,Milwaukee,MI,USA,43.05,-87.95
+DET,Detroit Pistons,Detroit,MI,USA,42.3314,-83.0558
+MIN,Minnesota Timberwolves,Minneapolis,MN,USA,44.9833,-93.2667
+CHA,Charlotte Bobcats,Charlotte,NC,USA,35.2269,-80.8433
+SXF,Sioux Falls Skyforce,Sioux Falls,ND,USA,43.5364,-96.7317
+RNO,Reno Bighorns,Reno,NV,USA,39.5272,-119.8219
+BKN,Brooklyn Nets,Brooklyn,NY,USA,40.6928,-73.9903
+NYK,New York Knicks,New York City,NY,USA,40.67,-73.94
+CAN,Canton Charge,Canton,OH,USA,40.805,-81.3758
+CLE,Cleveland Cavaliers,Cleveland,OH,USA,41.4822,-81.6697
+TUL,Tulsa 66ers,Tulsa,OK,USA,36.1314,-95.9372
+OKC,Oklahoma City Thunder,Oklahoma City,OK,USA,35.4822,-97.535
+TOR,Toronto Raptors,Toronto,ON,CAN,43.7,-79.4
+POR,Portland Trail Blazers,Portland,OR,USA,45.52,-122.6819
+ERI,Erie BayHawks,Erie,PA,USA,42.1296,-80.0852
+PHI,Philadelphia Sixers,Philadelphia,PA,USA,39.95,-75.17
+MEM,Memphis Grizzlies,Memphis,TN,USA,35.1174,-89.9711
+AUS,Austin Toros,Austin,TX,USA,30.25,-97.75
+RGF,Rio Grande Valley Vipers,Hidalgo,TX,USA,26.1044,-98.2464
+TEX,Texas Legends,Frisco,TX,USA,33.1414,-96.8131
+SAS,San Antonio Spurs,San Antonio,TX,USA,29.4167,-98.5
+HOU,Houston Rockets,Houston,TX,USA,29.7628,-95.3831
+DAL,Dallas Mavericks,Dallas,TX,USA,32.7758,-96.7967
+UTA,Utah Jazz,Salt Lake City,UT,USA,40.75,-111.8833
