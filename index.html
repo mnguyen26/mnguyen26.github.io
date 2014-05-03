@@ -109,15 +109,15 @@ d3.csv("flights-airport.csv", function(flights) {
 
   d3.csv("airports.csv", function(airports) {
 
-    // Only consider airports with at least one flight.
-    // airports = airports.filter(function(airport) {
-      // if (countByAirport[airport.iata]) {
-        // var location = [+airport.longitude, +airport.latitude];
-        // locationByAirport[airport.iata] = location;
-        // positions.push(projection(location));
-        // return true;
-      // }
-    // });
+    Only consider airports with at least one flight.
+    airports = airports.filter(function(airport) {
+      if (countByAirport[airport.iata]) {
+        var location = [+airport.longitude, +airport.latitude];
+        locationByAirport[airport.iata] = location;
+        positions.push(projection(location));
+        return true;
+      }
+    });
 
     // Compute the Voronoi diagram of airports' projected positions.
     var polygons = d3.geom.voronoi(positions);
