@@ -2,9 +2,9 @@ iata,name,city,state,country,latitude,longitude,img
 NBAPHX,Phoenix Suns,Phoenix,AZ,USA,33.45,-112.0667,suns.png
 NBASCW,Santa Cruz Warriors,Santa Cruz,CA,USA,36.972,-122.0263,sc warriors.png
 NBABAK,Bakersfield Jam,Bakersfield,CA,USA,35.3667,-119.0167,jam.png
-NBALAD,Los Angeles D-Fenders,Los Angeles,CA,USA,34.05,-118.25,dfenders.jpeg
+NBALAD,Los Angeles D-Fenders,Los Angeles,CA,USA,34.05,-118.25,dfenders.png
 NBAGSW,Golden State Warriors,Oakland,CA,USA,37.8044,-122.2708,gs warriors.png
-NBASAC,Sacramento Kings,Sacramento,CA,USA,38.5556,-121.4689,kings.jpeg
+NBASAC,Sacramento Kings,Sacramento,CA,USA,38.5556,-121.4689,kings.png
 NBALAL,Los Angeles Lakers,Los Angeles,CA,USA,34.05,-118.26,lakers.png
 NBADEN,Denver Nuggets,Denver,CO,USA,39.7392,-104.9847,nuggets.png
 NBAWAS,Washington Wizards,Washington,DC,USA,38.8951,-77.0367,wizards.png
@@ -15,32 +15,32 @@ NBAATL,Atlanta Hawks,Atlanta,GA,USA,33.755,-84.39,hawks.gif
 NBAIWA,Iowa Energy,Des Moines,IA,USA,41.5908,-93.6208,energy.png
 NBAIDA,Idaho Stampede,Boise,ID,USA,43.6137,-116.2377,stampede.png
 NBACHI,Chicago Bulls,Chicago,IL,USA,41.8819,-87.6278,bulls.gif
-NBAFWN,Fort Wayne Mad Ants,Fort Wayne,IN,USA,41.0804,-85.1392,madants.jpeg
+NBAFWN,Fort Wayne Mad Ants,Fort Wayne,IN,USA,41.0804,-85.1392,madants.png
 NBANOH,New Orleans Pelicans,New Orleans,LA,USA,29.9667,-90.05,pelicans.png
-NBASPG,Springfield Armor,Springfield,MA,USA,42.1124,-72.5475,armor.jpeg
+NBASPG,Springfield Armor,Springfield,MA,USA,42.1124,-72.5475,armor.png
 NBABOS,Boston Celtics,Boston,MA,USA,42.3581,-71.0636,celtics.gif
-NBAMNE,Maine Red Claws,Portland,ME,USA,43.6667,-70.2667,redclaws.jpeg
+NBAMNE,Maine Red Claws,Portland,ME,USA,43.6667,-70.2667,redclaws.png
 NBAMIL,Milwaukee Bucks,Milwaukee,MI,USA,43.05,-87.95,bucks.gif
 NBADET,Detroit Pistons,Detroit,MI,USA,42.3314,-83.0558,pistons.gif
 NBAMIN,Minnesota Timberwolves,Minneapolis,MN,USA,44.9833,-93.2667,timberwolves.gif
 NBACHA,Charlotte Bobcats,Charlotte,NC,USA,35.2269,-80.8433,bobcats.gif
-NBASXF,Sioux Falls Skyforce,Sioux Falls,ND,USA,43.5364,-96.7317,skyforce.jpeg
-NBARNO,Reno Bighorns,Reno,NV,USA,39.5272,-119.8219,bighorns.jpeg
+NBASXF,Sioux Falls Skyforce,Sioux Falls,ND,USA,43.5364,-96.7317,skyforce.png
+NBARNO,Reno Bighorns,Reno,NV,USA,39.5272,-119.8219,bighorns.png
 NBABKN,Brooklyn Nets,Brooklyn,NY,USA,40.6928,-73.9903,nets.gif
-NBANYK,New York Knicks,New York City,NY,USA,40.67,-73.94,knicks.jpeg
+NBANYK,New York Knicks,New York City,NY,USA,40.67,-73.94,knicks.png
 NBACAN,Canton Charge,Canton,OH,USA,40.805,-81.3758,charge.png
 NBACLE,Cleveland Cavaliers,Cleveland,OH,USA,41.4822,-81.6697,cavaliers.png
-NBATUL,Tulsa 66ers,Tulsa,OK,USA,36.1314,-95.9372,66ers.jpeg
+NBATUL,Tulsa 66ers,Tulsa,OK,USA,36.1314,-95.9372,66ers.png
 NBAOKC,Oklahoma City Thunder,Oklahoma City,OK,USA,35.4822,-97.535,thunder.png
-NBATOR,Toronto Raptors,Toronto,ON,CAN,43.7,-79.4,raptors.jpeg
+NBATOR,Toronto Raptors,Toronto,ON,CAN,43.7,-79.4,raptors.png
 NBAPOR,Portland Trail Blazers,Portland,OR,USA,45.52,-122.6819,trailblazers.gif
 NBAERI,Erie BayHawks,Erie,PA,USA,42.1296,-80.0852,bayhawks.png
-NBAPHI,Philadelphia Sixers,Philadelphia,PA,USA,39.95,-75.17,76ers.jpeg
+NBAPHI,Philadelphia Sixers,Philadelphia,PA,USA,39.95,-75.17,76ers.png
 NBAMEM,Memphis Grizzlies,Memphis,TN,USA,35.1174,-89.9711,grizzlies.gif
 NBAAUS,Austin Toros,Austin,TX,USA,30.25,-97.75,toros.gif
 NBARGV,Rio Grande Valley Vipers,Hidalgo,TX,USA,26.1044,-98.2464,vipers.gif
 NBATEX,Texas Legends,Frisco,TX,USA,33.1414,-96.8131,legends.png
 NBASAS,San Antonio Spurs,San Antonio,TX,USA,29.4167,-98.5,spurs.gif
 NBAHOU,Houston Rockets,Houston,TX,USA,29.7628,-95.3831,rockets.png
-NBADAL,Dallas Mavericks,Dallas,TX,USA,32.7758,-96.7967,mavericks.jpeg
+NBADAL,Dallas Mavericks,Dallas,TX,USA,32.7758,-96.7967,mavericks.png
 NBAUTA,Utah Jazz,Salt Lake City,UT,USA,40.75,-111.8833,jazz.gif
