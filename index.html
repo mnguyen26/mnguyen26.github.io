@@ -132,7 +132,7 @@ d3.csv("flights-airport.csv", function(flights) {
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
         .on("mouseover", function(d, i) { 
 			d3.select("h2 span").text(d.name);
-			d3.select("h2 span").append("svg:image").attr("xlink:href", "http://fc02.deviantart.net/fs70/i/2013/153/5/f/audrey_hepburn___3_by_farahkhan-d67gh54.jpg")
+			d3.select("h2 span").append("svg").append("svg:image").attr("xlink:href", "http://fc02.deviantart.net/fs70/i/2013/153/5/f/audrey_hepburn___3_by_farahkhan-d67gh54.jpg")
 			});
 			
 			// g.append("svg:image")
