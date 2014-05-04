@@ -153,7 +153,7 @@ d3.csv("flights-airport.csv", function(flights) {
     g.append("svg:path")
         .attr("class", "cell")
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
-        .on("mouseover", function(d, i) { d3.select("h2 span").text(d.name); d3.select("h3").html("<img src='d.img' height='15' width='10'>");});
+        .on("mouseover", function(d, i) { d3.select("h2 span").text(d.name); d3.select("h3").html("<img src='' height='15' width='10'>");});
 
     g.selectAll("path.arc")
         .data(function(d) { return linksByOrigin[d.iata] || []; })
