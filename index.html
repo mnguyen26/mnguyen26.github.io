@@ -144,7 +144,11 @@ d3.csv("flights-airport.csv", function(flights) {
 			.attr("height", 281)
 			.attr("x", 0)
 			.attr("y",0);
-			});
+			})
+		.on("mouseout", function() {
+			d3.select("#logo").remove("svg:image");
+			};
+			
 			
 
 
