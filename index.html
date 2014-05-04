@@ -54,12 +54,12 @@ circle {
     <script type="text/javascript" src="d3.geom.js"></script>
     <script type="text/javascript">
 	
-var svg = d3.select("h4")
+var asdf = d3.select("h4")
                 .append("svg")
                 .attr("width", 200)
                 .attr("height", 100)
                 .style("border", "1px solid black");
-var text = svg.selectAll("text")
+var text = asdf.selectAll("text")
                 .data([0])
                 .enter()
                 .append("text")
@@ -67,7 +67,7 @@ var text = svg.selectAll("text")
                 .attr("x", "1000")
                 .attr("y", "750");
 				
-var imgs = svg.selectAll("image").data([0]);
+var imgs = asdf.selectAll("image").data([0]);
                 imgs.enter()
                 .append("svg:image")
                 .attr("xlink:href", "http://i.imgur.com/DEoUAb8.jpg")
