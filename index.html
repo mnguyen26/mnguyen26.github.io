@@ -43,6 +43,8 @@ circle {
       <span>Hover over a team to see call-ups</span>
     </h2>
 	<h3></h3>
+	<h4>asdf
+	</h4>
     <div style="position:absolute;bottom:0;font-size:18px;">
       <input type="checkbox" id="voronoi"> <label for="voronoi"></label>
     </div>
@@ -51,6 +53,19 @@ circle {
     <script type="text/javascript" src="d3.geo.js"></script>
     <script type="text/javascript" src="d3.geom.js"></script>
     <script type="text/javascript">
+	
+var svg = d3.select("h4")
+                .append("svg")
+                .attr("width", 200)
+                .attr("height", 100)
+                .style("border", "1px solid black");
+var text = svg.selectAll("text")
+                .data([0])
+                .enter()
+                .append("text")
+                .text("Testing")
+                .attr("x", "40")
+                .attr("y", "60");
 
 var w = 1280,
     h = 800;
