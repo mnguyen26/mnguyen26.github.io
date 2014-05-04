@@ -136,7 +136,6 @@ d3.csv("flights-airport.csv", function(flights) {
         .on("mouseover", function(d, i) { 
 			d3.select("h2 span").text(d.name);
 			d3.select("h2 span").append("svg:image")
-			.append("svg:image")
 			.attr("xlink:href", d.img)
 			.attr("width", 200)
 			.attr("height", 281);
