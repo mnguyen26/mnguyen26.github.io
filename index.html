@@ -53,28 +53,6 @@ circle {
     <script type="text/javascript" src="d3.geo.js"></script>
     <script type="text/javascript" src="d3.geom.js"></script>
     <script type="text/javascript">
-	
-var asdf = d3.select("h4")
-                .append("svg")
-                .attr("width", 200)
-                .attr("height", 100)
-                .style("border", "1px solid black");
-var text = asdf.selectAll("text")
-                .data([0])
-                .enter()
-                .append("text")
-                .text("Testing")
-                .attr("x", "1000")
-                .attr("y", "750");
-				
-var imgs = asdf.selectAll("image").data([0]);
-                imgs.enter()
-                .append("svg:image")
-                .attr("xlink:href", "http://i.imgur.com/DEoUAb8.jpg")
-                .attr("x", "1000")
-                .attr("y", "750")
-                .attr("width", "100")
-                .attr("height", "100");
 
 var w = 1280,
     h = 800;
@@ -153,7 +131,13 @@ d3.csv("flights-airport.csv", function(flights) {
     g.append("svg:path")
         .attr("class", "cell")
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
-        .on("mouseover", function(d, i) { d3.select("h2 span").text(d.name); d3.select("h3").html("<img src='' height='15' width='10'>");});
+        .on("mouseover", function(d, i) { 
+			d3.select("h2 span").text(d.name); 
+			d3.select("h3").append("svg:image")
+			.attr("xlink:href","http://i.imgur.com/DEoUAb8.jpg")
+			.attr("height",'15')
+			.attr("width",'10');
+			});
 
     g.selectAll("path.arc")
         .data(function(d) { return linksByOrigin[d.iata] || []; })
