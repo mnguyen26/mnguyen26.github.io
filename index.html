@@ -129,7 +129,7 @@ d3.csv("flights-airport.csv", function(flights) {
     g.append("svg:path")
         .attr("class", "cell")
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
-        .on("mouseover", function(d, i) { d3.select("h2 span").text(d.name); d3.select("h3").text("yissss");});
+        .on("mouseover", function(d, i) { d3.select("h2 span").text(d.name); d3.select("h3").html("<a href='www.google.com'>asdf</a>");});
 
     g.selectAll("path.arc")
         .data(function(d) { return linksByOrigin[d.iata] || []; })
