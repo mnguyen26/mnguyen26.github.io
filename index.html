@@ -137,16 +137,11 @@ d3.csv("flights-airport.csv", function(flights) {
 			.attr("xlink:href", "http://i.imgur.com/DEoUAb8.jpg")
 			.attr("width", 200)
 			.attr("height", 200)
-			.attr("x", 228)
+			.attr("x", 1000)
 			.attr("y",53);
 			});
 			
-	// var img = g.append("svg:image")
-			// .attr("xlink:href", "http://i.imgur.com/DEoUAb8.jpg")
-			// .attr("width", 200)
-			// .attr("height", 200)
-			// .attr("x", 228)
-			// .attr("y",53);
+
 
     g.selectAll("path.arc")
         .data(function(d) { return linksByOrigin[d.iata] || []; })
