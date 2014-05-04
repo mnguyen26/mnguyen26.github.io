@@ -53,7 +53,7 @@ circle {
     <script type="text/javascript">
 
 var w = 1280,
-    h = 800;
+    h = 1200;
 
 var projection = d3.geo.azimuthal()
     .mode("equidistant")
@@ -135,8 +135,8 @@ d3.csv("flights-airport.csv", function(flights) {
 			d3.select("h2 span").text(d.name);
 			g.append("svg:image")
 			.attr("xlink:href", d.img)
-			.attr("width", 200)
-			.attr("height", 200)
+			.attr("width", 100)
+			.attr("height", 100)
 			.attr("x", 950)
 			.attr("y",700);
 			});
