@@ -42,7 +42,7 @@ circle {
     <h2>
       <span>Hover over a team to see call-ups</span>
     </h2>
-	<h3><span>asdf</span></h3>
+	<h3>asdf</h3>
     <div style="position:absolute;bottom:0;font-size:18px;">
       <input type="checkbox" id="voronoi"> <label for="voronoi"></label>
     </div>
@@ -51,11 +51,6 @@ circle {
     <script type="text/javascript" src="d3.geo.js"></script>
     <script type="text/javascript" src="d3.geom.js"></script>
     <script type="text/javascript">
-	
-var asdf = d3.select("h3").append("svg")
-    .attr("width", 100)
-    .attr("height", 100);
-var q = asdf.append("q");
 
 var w = 1280,
     h = 800;
@@ -138,7 +133,7 @@ d3.csv("flights-airport.csv", function(flights) {
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
         .on("mouseover", function(d, i) { 
 			d3.select("h2 span").text(d.name); 
-			var img = q.append("svg:image")
+			d3.select("h3").append("svg:image")
 			.attr("xlink:href", "http://i.imgur.com/DEoUAb8.jpg")
 			.attr("width", 200)
 			.attr("height", 200);
