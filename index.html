@@ -43,7 +43,7 @@ circle {
       <span>Hover over a team to see call-ups</span>
     </h2>
 	<h3>
-		<svg width="50" height="50">
+		<svg width="50" height="50" id="logo">
 			<image xlink:href="http://fc02.deviantart.net/fs70/i/2013/153/5/f/audrey_hepburn___3_by_farahkhan-d67gh54.jpg" width="50" height="50"></image>
 		</svg>
 	</h3>
@@ -137,7 +137,7 @@ d3.csv("flights-airport.csv", function(flights) {
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
         .on("mouseover", function(d, i) { 
 			d3.select("h2 span").text(d.name);
-			d3.select("h3").append("svg:image")
+			d3.select("logo").append("svg:image")
 			.attr("xlink:href", d.img)
 			.attr("width", 200)
 			.attr("height", 281);
