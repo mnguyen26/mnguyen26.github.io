@@ -38,8 +38,8 @@ circle {
 
     </style>
   </head>
-  
-      <h2>
+  <body>
+    <h2>
       <span>Hover over a team to see call-ups</span>
     </h2>
 
@@ -48,9 +48,6 @@ circle {
 			
 		</svg>
 	</h3>
-  
-  <body>
-
     <div style="position:absolute;bottom:0;font-size:18px;">
       <input type="checkbox" id="voronoi"> <label for="voronoi"></label>
     </div>
@@ -146,7 +143,7 @@ d3.csv("flights-airport.csv", function(flights) {
 			.attr("width", 200)
 			.attr("height", 281)
 			.attr("x", 0)
-			.attr("y",0);;
+			.attr("y",0);
 			});
 			
 
