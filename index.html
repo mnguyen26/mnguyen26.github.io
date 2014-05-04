@@ -133,7 +133,7 @@ d3.csv("flights-airport.csv", function(flights) {
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
         .on("mouseover", function(d, i) { 
 			d3.select("h2 span").text(d.name); 
-			d3.select("h3").append("svg:image")
+			var img = d3.select("h3").append("svg:image")
 			.attr("xlink:href", "http://i.imgur.com/DEoUAb8.jpg")
 			.attr("width", 200)
 			.attr("height", 200);
