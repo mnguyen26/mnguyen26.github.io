@@ -47,7 +47,7 @@ circle {
 	</p>
 	
 	<p2 style="position:absolute; bottom:50px">
-      <font face="arial" size="5">Hover over a team to see call-ups</font>
+      <font face="arial" size="5">Place your mouse over a city</font>
     </p2>
 
     <div style="position:absolute;bottom:0;font-size:18px;">
@@ -139,9 +139,9 @@ d3.csv("flights-airport.csv", function(flights) {
         .attr("class", "cell")
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
         .on("mouseover", function(d, i) { 
-			// d3.select("p2").text(d.name)
-			// .style("font-size","20px")
-			// .style("font-family","arial");
+			d3.select("p2").text("")
+			.style("font-size","20px")
+			.style("font-family","arial");
 			d3.select("#logo").append("svg:image")
 			.attr("id", "team"+i.toString())
 			.attr("xlink:href", d.img)
