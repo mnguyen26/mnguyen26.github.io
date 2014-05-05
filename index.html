@@ -141,7 +141,7 @@ d3.csv("flights-airport.csv", function(flights) {
         .on("mouseover", function(d, i) { 
 			d3.select("p2").text(d.name)
 			.style("font-size","15px")
-			.style("font-face","arial");
+			.style("font-family","arial");
 			d3.select("#logo").append("svg:image")
 			.attr("id", "team"+i.toString())
 			.attr("xlink:href", d.img)
