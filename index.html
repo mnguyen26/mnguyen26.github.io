@@ -4,10 +4,6 @@
   <head>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <style type="text/css">
-
-text {
-  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 	
 #states path {
   fill: #ccc;
@@ -143,7 +139,7 @@ d3.csv("flights-airport.csv", function(flights) {
         .attr("class", "cell")
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
         .on("mouseover", function(d, i) { 
-			d3.select("p2").text(d.name)
+			d3.select("p2").text("<font face='arial'>"+d.name+"</font>")
 			.style("font-size","15px");
 			d3.select("#logo").append("svg:image")
 			.attr("id", "team"+i.toString())
