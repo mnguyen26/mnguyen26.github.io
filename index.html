@@ -144,18 +144,13 @@ d3.csv("flights-airport.csv", function(flights) {
 			.attr("width", 100)
 			.attr("height", 140)
 			.attr("x", 0)
-			.attr("y",0);
+			.attr("y",100);
 			})
 		.on("mouseout", function(d,i) {
 			d3.select("#team"+i.toString()).remove();
 			})
 		;
 			
-
-
-			
-
-
     g.selectAll("path.arc")
         .data(function(d) { return linksByOrigin[d.iata] || []; })
       .enter().append("svg:path")
