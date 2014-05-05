@@ -41,15 +41,14 @@ circle {
   </head>
   <body>
 
-    <h2>
-      <span>Hover over a team to see call-ups</span>
-    </h2>
-
 	<p style="position:absolute; bottom:50px">
 		<svg width="100" height="140" id="logo">
-			
 		</svg>
 	</p>
+	
+	<p2>
+      <span>Hover over a team to see call-ups</span>
+    </p2>
 
     <div style="position:absolute;bottom:0;font-size:18px;">
       <input type="checkbox" id="voronoi"> <label for="voronoi"></label>
@@ -72,7 +71,7 @@ var projection = d3.geo.azimuthal()
 var path = d3.geo.path()
     .projection(projection);
 
-var svg = d3.select("body").insert("svg:svg", "h2")
+var svg = d3.select("body").insert("svg:svg", "p2")
     .attr("width", w)
     .attr("height", h);
 
@@ -140,7 +139,7 @@ d3.csv("flights-airport.csv", function(flights) {
         .attr("class", "cell")
         .attr("d", function(d, i) { return "M" + polygons[i].join("L") + "Z"; })
         .on("mouseover", function(d, i) { 
-			d3.select("h2 span").text(d.name);
+			d3.select("p2 span").text(d.name);
 			d3.select("#logo").append("svg:image")
 			.attr("id", "team"+i.toString())
 			.attr("xlink:href", d.img)
