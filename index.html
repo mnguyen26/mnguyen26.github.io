@@ -146,7 +146,7 @@ d3.csv("flights-airport.csv", function(flights) {
 			.attr("x", 0)
 			.attr("y",0);
 			})
-		.on("mouseout", function(i) {
+		.on("mouseout", function(d,i) {
 			d3.select("#team"+i.toString()).remove();
 		})
 		;
